@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/logo.png" />
+    <link rel="stylesheet" href="style.css">
+    <title>Приглашение на свадьбу</title>
+</head>
+<body>
+<div class="page">
+    <div class="intro">
+        <div class="container">
+            <div class="intro__inner">
+                <div class="intro__content">
+                    <div class="intro__column">
+                        <div class="intro__date">07<br/>06<br/>24</div>
+                        <div class="intro__date-line"></div>
+                    </div>
+                    <div class="intro__text">
+                        <img class="intro__photo" src="img/intro.jpg" alt="">
+                        <h1 class="intro__title">
+                            Данил<p class="intro__title-en">and</p> Азалия
+                        </h1>
+                        <p class="intro__invite">Приглашаем вас разделить с нами радость главного события в нашей жизни</p>
+                        <div class="intro__time">Пятница, 07 июнь 2024</div>
+                        <address class="intro__address">Загс ул. Сибагата Хакима 4</address>
+                        <p class="intro__say">Ждем всех на нашей свадьбе</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="invite">
+        <div class="container">
+            <div class="invite__inner">
+                <h2 class="invite__title">Дорогой гость!</h2>
+                <p class="invite__text">Мы рады сообщить Вам, что 07.06.2024 состоится самое главное торжество в нашей жизни- день нашей свадьбы! Приглашаем Вас разделить с нами радость этого незабываемого дня.</p>
+                <p class="intro__say">Ждем вac</p>
+                <address class="intro__address">07.06.2024 в 14:30<br/>Загс ул. Сибагата Хакима 4<br/>Ресторан ул. Читаева 58 Г</address>
+                <img class="invite__photo"  src="img/invite.jpg" alt="">
+                <p class="intro__say">Ваши жених и невеста</p>
+            </div>
+        </div>
+    </div>
+    <div class="color">
+        <div class="container">
+            <div class="color__inner">
+                <div class="color__content">
+                    <p class="invite__text">
+                    Будем благодарны, если при выборе нарядов на наше торжество вы придержитесь следующей палитры</p>
+                <div class="color__circle">
+                    <div class="color__item color__item--1"></div>
+                    <div class="color__item color__item--2"></div>
+                    <div class="color__item color__item--3"></div>
+                    <div class="color__item color__item--4"></div>
+                    <div class="color__item color__item--5"></div>
+                    <div class="color__item color__item--6"></div>
+                </div>
+                </div>
+                <button class="color__button">
+                    <img class="color__button--ico" src="img/galochka.svg" alt="">
+                    <div class="color__button--text">Подтвердить</div>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="question">
+        <div class="container">
+            <div class="question__content">
+                <div class="quesion__ico">
+                    <img src="img/question__thank.png" alt="">
+                </div>
+                <div class="question__text">Спасибо, что подтвердили свое присутствие!
+                    Жених и Невеста уже оповещены об этом ;)</div>
+            </div>
+            <div class="question__inner">
+                <h2 class="question__title">Пожалуйста, ответьте на вопросы, которые для вас подготовили <b> Данил</b> и <b>Азалия</b></h2>
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="9b11926f-32a4-48ac-9c6d-3b669453b6b5">
+                    <span class="question__span">Потребуется ли вам трансфер?</span>
+                    <div class="transfer question__block">
+                        <div class="question__item">
+                            <input type="radio" name="transfer" id="Трансфер не нужен" value="Трансфер не нужен" required>
+                            <label for="Трансфер не нужен">Нет</label>
+                        </div>
+
+                        <div class="question__item">
+                            <input type="radio" name="transfer" id="Только до торжества" value="Только до торжества" required>
+                            <label for="Только до торжества">Только до торжества</label>
+                        </div>
+                        <div class="question__item">
+                            <input type="radio" name="transfer" id="Только после торжества" value="Только после торжества" required>
+                            <label for="Только после торжества">Только после торжества</label>
+                        </div>
+                        <div class="question__item">
+                            <input type="radio" name="transfer" id="До и после торжества" value="До и после торжества" required>
+                            <label for="До и после торжества">До и после торжества</label>
+                        </div>
+                    </div>
+
+                    <span class="question__span">Какой алкоголь вы препочетаете?</span>
+                    <div class="alcohol question__block">
+                        <div class="question__item">
+                            <input type="radio" name="alcohol" id="Красное вино" value="Красное вино" required>
+                            <label for="Красное вино">Красное вино</label>
+                        </div>
+                        <div class="question__item">
+                            <input type="radio" name="alcohol" id="Белое вино" value="Белое вино"required>
+                            <label for="Белое вино">Белое вино</label>
+                        </div>
+                        <div class="question__item">
+                            <input type="radio" name="alcohol" id="Шампанское" value="Шампанское" required>
+                            <label for="Шампанское">Шампанское</label>
+                        </div>
+                        <div class="question__item">
+                            <input type="radio" name="alcohol" id="Виски/Коньяк" value="Виски/Коньяк" required>
+                            <label for="Виски/Коньяк">Виски/Коньяк</label>
+                        </div>
+                        <div class="question__item">
+                            <input type="radio" name="alcohol" id="Водка" value="Водка" required>
+                            <label for="Водка">Водка</label>
+                        </div>
+                        <div class="question__item">
+                            <input type="radio" name="alcohol" id="Не буду пить" value="Не буду пить" required>
+                            <label for="Не буду пить">Не буду пить</label>
+                        </div>
+                    </div>
+
+                    <span class="question__span">Будет ли с вами ребенок на празднике?</span>
+                    <div class="child question__block">
+                        <div class="question__item">
+                            <input type="radio" name="child" id="С ребенком" value="С ребенком" required>
+                            <label for="С ребенком">Да</label>
+                        </div>
+                        <div class="question__item">
+                            <input type="radio" name="child" id="Без ребенка" value="Без ребенка" required>
+                            <label for="Без ребенка">Нет</label>
+                        </div>
+                    </div>
+                    <span class="message__btn">
+                    <img src="img/message.svg" alt="">
+                    <div class="message__btn--text">Добавте сообщение для жениха и невесты</div>
+                    </span>
+                    <textarea type="text" name="message" id="" class="" required placeholder="Введите сообщение" autocomplete="off"></textarea>
+
+
+                    <input type="submit" value="Отправить" class='btn' name="send">
+                </form>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="map">
+        <div class="container">
+            <div class="map__inner">
+                <div class="map__title">Свадебное расписание</div>
+
+
+            <div class="map__content">
+                <div class="map__date">
+                    17:00 <br> 07.06.2024
+                </div>
+                <div class="map__place">
+                    <div class="map__item">
+                        <div class="map__zags">Банкет</div>
+                        <div class="map__address">Казань, ул. Четаева 58 Г</div>
+                    </div>
+                </div>
+            </div>
+            <div class="map__carta">
+                <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A9a7e4c567eb29210de20f062e5e208aece9c938edc1a112234840f22518b37a2&amp;source=constructor" width="500" height="400" frameborder="0"></iframe>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <h2 class="footer__title">Ссылки на соц. сети</h2>
+                <div class="footer__item">
+                    <div class="footer__img">
+                        <img src="img/telegram.png" alt="">
+                    </div>
+                    <a href="https://t.me/aza_nagore" class="footer__social">Данил</a>
+                </div>
+                <div class="footer__item">
+                    <div class="footer__img">
+                        <img src="img/telegram.png" alt="">
+                    </div>
+                    <a href="https://t.me/aza_nagore" class="footer__social">Азалия</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
