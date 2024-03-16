@@ -1,5 +1,7 @@
 console.log(localStorage.getItem('data'), typeof(localStorage.getItem('data')))
 
+localStorage.removeItem('data')
+
 if(localStorage.getItem('data') != "1"){
     let btn_start = document.querySelector('.color__button')
     let btn_message = document.querySelector('.message__btn')
@@ -34,4 +36,3 @@ if(localStorage.getItem('data') == "1"){
     }
 }
 
-localStorage.removeItem('data')
